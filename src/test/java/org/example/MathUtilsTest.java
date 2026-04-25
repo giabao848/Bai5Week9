@@ -15,4 +15,8 @@ public class MathUtilsTest {
     void test(){
         assertEquals(11, math.add(5,6));
     }
+    @Test
+    void test1(){
+        assertEquals(1, math.divide(2, 2));
+    }
 }
