@@ -21,6 +21,6 @@ public class MathUtilsTest {
     }
     @Test
     void test3(){
-        assertThrows(ArithmeticException.class, () -> math.divide(2, 0))
+        assertThrows(ArithmeticException.class, () -> {math.divide(2, 0);});
     }
 }
