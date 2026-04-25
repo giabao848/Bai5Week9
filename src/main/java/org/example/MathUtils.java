@@ -21,8 +21,5 @@ public class MathUtils {
         }
         return a / b;
     }
-    public String getFilePath() {
-        // Cố tình dùng dấu gạch chéo ngược của Windows
-        return "logs" + File.separator + "text.txt";
-    }
+
 }
